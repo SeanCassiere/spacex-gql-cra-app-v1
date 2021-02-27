@@ -1,0 +1,29 @@
+{
+	"name": "GraphQL_SpaceX_API",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "babel-node src/index.js",
+		"server": "nodemon --exec babel-node src/index.js",
+		"dev": "npm run server"
+	},
+	"keywords": [],
+	"author": "SeanCassiere",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server-express": "^2.21.0",
+		"axios": "^0.21.1",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"graphql": "^15.5.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.13.0",
+		"@babel/core": "^7.13.8",
+		"@babel/node": "^7.13.0",
+		"@babel/preset-env": "^7.13.8",
+		"nodemon": "^2.0.7"
+	}
+}

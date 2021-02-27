@@ -1,0 +1,17 @@
+{
+	"name": "SpaceX-CRA-GQL",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"server": "npm run server --prefix server",
+		"client": "npm start --prefix client"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"concurrently": "^6.0.0"
+	}
+}
